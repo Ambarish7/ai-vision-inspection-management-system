@@ -1,0 +1,10 @@
+{
+  "model": "best.pt",
+  "simulated": false,
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "detections": [
+    {"classId": 0, "className": "defect", "confidence": 0.93, "x1": 120.0, "y1": 80.0, "x2": 240.0, "y2": 190.0}
+  ],
+  "decision": "NG"
+}

@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: vision-postgres
+    environment:
+      POSTGRES_DB: vision_inspection
+      POSTGRES_USER: vision_user
+      POSTGRES_PASSWORD: change_me_local_only
+    ports:
+      - "5433:5432"
+    volumes:
+      - vision_pgdata:/var/lib/postgresql/data
+volumes:
+  vision_pgdata:
